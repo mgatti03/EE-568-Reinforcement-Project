@@ -26,6 +26,7 @@ The main goal is to study how both methods behave as the amount of preference da
 ├── rlhf_training_cartpole.ipynb
 ├── rlhf_training_pendulum.ipynb
 ├── Poster.pdf
+├── Report.pdf
 └── outputs/
     ├── checkpoints/
     ├── datasets/
@@ -91,11 +92,10 @@ Pendulum is a continuous-action benchmark with a denser but more difficult rewar
 
 
 
-## Poster
+## Project Documents
 
-The project poster is available here: [Poster.pdf](Poster.pdf)
-
-It summarizes the motivation, method, experimental setup, and main results.
+- [Poster.pdf](Poster.pdf): summary of the motivation, method, experimental setup, and main results.
+- [Report.pdf](Report.pdf): full project report with methodology, results, and analysis.
 
 
 
