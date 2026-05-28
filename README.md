@@ -20,7 +20,7 @@ The main goal is to study how both methods behave as the amount of preference da
 
 ```text
 .
-├── exploration_pi1_vs_pi2_local.ipynb
+├── policies_exploration.ipynb
 ├── policies_saving.ipynb
 ├── preference_data.ipynb
 ├── rlhf_training_cartpole.ipynb
@@ -37,7 +37,7 @@ The main goal is to study how both methods behave as the amount of preference da
 
 ## Notebooks
 
-### `exploration_pi1_vs_pi2_local.ipynb`
+### `policies_exploration.ipynb`
 
 Explores candidate environments and training regimes.
 
