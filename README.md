@@ -14,7 +14,7 @@ Experiments are run on:
 
 The main goal is to study how both methods behave as the amount of preference data increases.
 
----
+
 
 ## Repository Structure
 
@@ -32,7 +32,7 @@ The main goal is to study how both methods behave as the amount of preference da
     └── part3/
 ```
 
----
+
 
 ## Notebooks
 
@@ -51,7 +51,7 @@ Environments considered include:
 
 The objective is to find environments where PPO can reliably produce both an expert policy and a stable intermediate policy.
 
----
+
 
 ### `policies_saving.ipynb`
 
@@ -59,7 +59,7 @@ Trains PPO policies and saves selected `π1` and `π2` checkpoints.
 
 CartPole uses PPO with default-style hyperparameters. Pendulum requires longer rollouts and a higher learning rate to obtain stable learning.
 
----
+
 
 ### `preference_data.ipynb`
 
@@ -73,7 +73,7 @@ Each preference pair contains:
 * a binary preference label sampled with the Bradley–Terry model;
 * the shared random seed used to initialize both trajectories.
 
----
+
 
 ### `rlhf_training_cartpole.ipynb`
 
@@ -81,7 +81,7 @@ Runs reward-model training, PPO-RLHF, DPO, and evaluation for CartPole-v1.
 
 CartPole is useful as a discrete-action benchmark where PPO-RLHF can recover expert-level behavior.
 
----
+
 
 ### `rlhf_training_pendulum.ipynb`
 
@@ -89,7 +89,7 @@ Runs the same RLHF pipeline for Pendulum-v1.
 
 Pendulum is a continuous-action benchmark with a denser but more difficult reward structure. It is used to test whether the same RLHF methods remain stable outside discrete control.
 
----
+
 
 ## Poster
 
@@ -97,7 +97,7 @@ The project poster is available here: [Poster.pdf](Poster.pdf)
 
 It summarizes the motivation, method, experimental setup, and main results.
 
----
+
 
 ## Installation
 
@@ -117,7 +117,7 @@ pip install gymnasium[box2d]
 
 for Box2D-based environments such as LunarLander.
 
----
+
 
 ## Reproducing the Experiments
 
@@ -139,13 +139,12 @@ A typical workflow is:
 5. Evaluate both methods over 20 held-out seeds on CartPole-v1 and Pendulum-v1.
 
 
----
 
 ## Notes
 
 Generated outputs are not included in the repository. Checkpoints, preference datasets, reward models, plots, and training logs can be large and are meant to be reproduced locally by running the notebooks. All generated files are saved under outputs/.
 
----
+
 
 ## Authors
 
