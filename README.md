@@ -25,6 +25,7 @@ The main goal is to study how both methods behave as the amount of preference da
 ├── preference_data.ipynb
 ├── rlhf_training_cartpole.ipynb
 ├── rlhf_training_pendulum.ipynb
+├── Poster.pdf
 └── outputs/
     ├── checkpoints/
     ├── datasets/
@@ -87,6 +88,16 @@ CartPole is useful as a discrete-action benchmark where PPO-RLHF can recover exp
 Runs the same RLHF pipeline for Pendulum-v1.
 
 Pendulum is a continuous-action benchmark with a denser but more difficult reward structure. It is used to test whether the same RLHF methods remain stable outside discrete control.
+
+---
+
+## Poster
+
+The project poster is available as:
+
+`Poster.pdf`
+
+It summarizes the motivation, method, experimental setup, and main results.
 
 ---
 
