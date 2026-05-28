@@ -93,11 +93,9 @@ Pendulum is a continuous-action benchmark with a denser but more difficult rewar
 
 ## Poster
 
-The project poster is available as:
+## Poster
 
-`Poster.pdf`
-
-It summarizes the motivation, method, experimental setup, and main results.
+See the project poster: [Poster.pdf](Poster.pdf).
 
 ---
 
